@@ -1,5 +1,5 @@
 php:
-  build: .
+  build: ./docker/php
   container_name: my-php
   ports:
     - "80:80"
@@ -10,7 +10,7 @@ php:
     - db
 
 db:
-  build: ./database
+  build: ./docker/db
   container_name: my-mysql-php
   ports:
     - "3306:3306"
