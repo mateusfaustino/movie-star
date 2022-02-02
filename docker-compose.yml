@@ -1,5 +1,5 @@
 php:
-  image: php:7.4-apache
+  build: .
   container_name: my-php
   ports:
     - "80:80"
