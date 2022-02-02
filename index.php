@@ -1,3 +1,6 @@
+<?php
+    require_once("globals.php");
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -15,6 +18,9 @@
 <body>
     <h1>
         Testando
+        <?php
+            echo $BASE_URL ;
+        ?>
     </h1>
     <!-- Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
